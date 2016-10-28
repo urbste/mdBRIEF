@@ -54,9 +54,14 @@ specific application
 - Open evaluateFireWire.m and set the paths to the dataset and the ground truth homographies
 - Run the script. To avoid to long runtimes and to test the descriptor, you can set the variable maxComb which regulates the number of image pairs. Maximum is 78.
 
-Here are some PR curves for the FireWire dataset using 20 image pairs:
+### Here are some PR curves for the FireWire dataset using 20 image pairs:
 
 Rotating the patches:
-<img src="resources/FireWire_withOri.png" width="250">
+<img src="resource/FireWire_withOri.png" width="250">
 Without rotation (the datasets contains almost not rotation about the view axis:
-<img src="resources/FireWire_withOutOri.png" width="250">
+<img src="resource/FireWire_withOutOri.png" width="250">
+
+### Evaluating offline learned test sets (learned using different detectors and datasets)
+
+<img src="resource/EvaluateOfflineLearnedTestSets.png" width="250">
+<img src="resource/EvaluateOfflineLearnedTestSets_withMasking.png" width="250">
