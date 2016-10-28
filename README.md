@@ -56,12 +56,10 @@ specific application
 
 ### Here are some PR curves for the FireWire dataset using 20 image pairs:
 
-Rotating the patches:
-<img src="resource/FireWire_withOri.png" width="250">
-Without rotation (the datasets contains almost not rotation about the view axis:
-<img src="resource/FireWire_withOutOri.png" width="250">
+<img src="resource/FireWire_withOri.png" width="350">
+<img src="resource/FireWire_withOutOri.png" width="350">
 
 ### Evaluating offline learned test sets (learned using different detectors and datasets)
 
-<img src="resource/EvaluateOfflineLearnedTestSets.png" width="250">
-<img src="resource/EvaluateOfflineLearnedTestSets_withMasking.png" width="250">
+<img src="resource/EvaluateOfflineLearnedTestSets.png" width="350">
+<img src="resource/EvaluateOfflineLearnedTestSets_withMasking.png" width="350">
